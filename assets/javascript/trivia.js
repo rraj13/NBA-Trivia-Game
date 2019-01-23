@@ -15,9 +15,9 @@ var q1 = new Question(
     "Wilt Chamberlain", 
     ["Kobe Bryant", "Lebron James", "Michael Jordan", "Wilt Chamberlain"], 
     '<iframe src="https://giphy.com/embed/orjr6OEwbbRV6" frameBorder="0" class="giphy-embed" allowFullScreen class="gifclass"></iframe>',
-    "Yep! Wilt scored 100pts in a single game!!",
-    "Nope! It was Wilt Chamberlain with 100pts!",
-    "It was Wilt Chamberlain with 100pts!" 
+    "Yep! Wilt scored 100 pts in a single game!!",
+    "Nope! It was Wilt Chamberlain with 100 pts!",
+    "It was Wilt Chamberlain with 100 pts!" 
 );
 
 var q2 = new Question(
@@ -230,6 +230,7 @@ $(document).on("click", ".option", function() {
 
 $(document).on("click", ".play-again", function() {
     questionCounter = 0;
+    timer = 20;
     genQuestion(game[questionCounter]);
 });
 
