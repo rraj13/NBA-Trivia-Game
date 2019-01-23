@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/nba-trivia-background.jpg");
+    display: grid;
+    justify-items: center;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.5px;
+}
+
+.game-board {
+    background-color: grey;
+    opacity: .8;
+    margin-top: 50px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+.text {
+    color: #fff;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+button {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: orange;
+    cursor: pointer;
+}
