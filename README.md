@@ -12,7 +12,7 @@ JavaScript - objects, constructors, if-else statment, for-loops<br/>
 JQuery - event handlers, DOM manipulation<br/>
 
 ## General Methodology
-The logic for this project involved having a questionCounter variable that incrememnted each time a question was asked and then answered. The game was made in an array with each of the questions and their data as elements of that array (the questions were constructed as objects and each object was an element in array). The aforementioned questionCounter would start at index 0, display all the information for that question, then once answered, it would increase to 1, 2, 3 etc. In this way, each time the user would answer, the program would display the data for the next question. In addition, I utilized timers to allow the user 20 seconds to answer each question and then 5 seconds between each question display. 
+The logic for this project involved having a questionCounter variable that incremented each time a question was asked and then answered. The game was made in an array with each of the questions and their data as elements of that array (the questions were constructed as objects and each object was an element in array). The aforementioned questionCounter would start at index 0, display all the information for that question, then once answered, it would increase to 1, 2, 3 etc. In this way, each time the user would answer, the program would display the data for the next question. In addition, I utilized timers to allow the user 20 seconds to answer each question and then 5 seconds between each question display. 
 
 This was a great completely front end or client side project. It really required a lot of pseudocoding and logic determination before even writing a single line of code!
 
