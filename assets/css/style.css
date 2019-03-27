@@ -1,18 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: url("../images/nba-trivia-background.jpg");
-    display: grid;
-    justify-items: center;
     font-family: "Staatliches", cursive;
     letter-spacing: 1.5px;
+}
+
+.game {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
 }
 
 .game-board {
     background-color: grey;
     opacity: .8;
-    margin-top: 50px;
-    width: 1000px;
-    height: 500px;
     text-align: center;
+    height: 90%;
+    width: 95%;
 }
 
 .text {
@@ -21,10 +31,16 @@ body {
     margin: 20px 0;
 }
 
+.answer-choices {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
 button {
-    height: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 45px;
+    width: 225px;
+    margin-bottom: 5px;
     font-size: 16px;
     background-color: orange;
     cursor: pointer;

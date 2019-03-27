@@ -153,8 +153,9 @@ function genQuestion(question) {
     $(".game-board").append("<div class='text'>"  + "Question: " + (questionCounter + 1) + " of 10" + "</div>");
     $(".game-board").append("<div class='timer text'>"  + "Time Remaining: 20 seconds" + "</div>");
     $(".game-board").append("<div class ='text' id='question'>" + question.question + "</div>");
+    $(".game-board").append("<div class='answer-choices'>" + "</div>");
     for (var i = 0; i < question.options.length; i++) {
-        $(".game-board").append("<button class='option'>" + question.options[i] + "</button>");
+        $(".answer-choices").append("<button class='option'>" + question.options[i] + "</button>");
     }
     runTimer = setInterval(countdown, 1000);
 }
