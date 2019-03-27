@@ -2,7 +2,7 @@
 
 Live Link: https://rraj13.github.io/NBA-Trivia-Game/
 
-![alt text](NbaTriviaScreenshot.png "NBA Trivia Game Screenshot")
+![alt text](NBATriviaScreenshot.png "NBA Trivia Game Screenshot")
 
 ## Introduction
 Hey there! Here I have created an NBA inspired trivia game. The user presses start to begin and is then presented with a question with four possible answer choices. They have 20 seconds to guess before the answer is revealed. 
